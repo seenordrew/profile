@@ -61,6 +61,10 @@ a {
   box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
 
+#img-wide {
+  width: 70%;
+}
+
 .img-center-small {
   //margin-top: 50px;
   display: block;
@@ -246,6 +250,9 @@ z-index: 2;
   .img-center {
     width: 90%;
   }
+#img-wide {
+  width: 90%;
+}
 
   .header {
     font-size: 7vw;
