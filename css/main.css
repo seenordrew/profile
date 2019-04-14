@@ -2,11 +2,6 @@ html, body {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -49,7 +44,6 @@ a {
 
 .img-center {
   margin-top: 40px;
-  margin-bottom: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -59,6 +53,11 @@ a {
   -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+figure {
+  margin: 0;
+  text-align: center;
 }
 
 #img-wide {
