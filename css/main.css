@@ -55,6 +55,10 @@ html, body {
   box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
 
+p {
+    font-size: calc(5px + 1vw);
+  }
+
 figure {
   text-align: center;
 }
@@ -135,16 +139,6 @@ figcaption {
   box-shadow: 4px 0px 20px -10px rgba(0,0,0,0.75);
 }
 
-/*.wrapper-photo {
-  width: 100%;
-  //height: 95vh;
-  background-color: #87cfff;
-  -webkit-box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.75);
-z-index: 2;
-}*/
-
 .logo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
@@ -181,7 +175,7 @@ z-index: 2;
   opacity: 0.7;
 }
 
-.wrapper-video {
+/*.wrapper-video {
   width: 100%;
   padding-bottom: 2vw;
   background-color: #49b4fc;
@@ -210,7 +204,7 @@ z-index: 2;
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
+}*/
 
 .wrapper-contact {
   height: 100vh;
@@ -232,9 +226,6 @@ z-index: 2;
 
 
 /*code for tablets*/
-
-
-/* midsize tablets*/
 
 @media screen and (max-width: 1024px) {
   .landing-header {
