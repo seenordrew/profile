@@ -90,10 +90,6 @@ figure {
   width: 100%;
   padding-bottom: 5vw;
   background-color: #fffdf9;
-  /*-webkit-box-shadow: 0px 4px 29px -3px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 29px -3px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 29px -3px rgba(0,0,0,0.75);
-z-index: 3;*/
 }
 
 .header {
@@ -122,6 +118,10 @@ z-index: 3;*/
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.websites img:hover {
+  opacity: 0.7;
 }
 
 figcaption {
@@ -173,6 +173,10 @@ figcaption {
 
 .photo-grid img:hover {
   opacity: 0.7;
+}
+
+#no-hover img:hover {
+  opacity: 1;
 }
 
 /*.wrapper-video {
