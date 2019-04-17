@@ -57,6 +57,7 @@ html, body {
 
 p {
     font-size: calc(5px + 1vw);
+    font-family: 'Lato', sans-serif;
   }
 
 figure {
