@@ -63,6 +63,12 @@ figure {
   text-align: center;
 }
 
+.caption {
+  margin: 0;
+  font-size: calc(4px + 1vw);
+  font-style: italic;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -264,6 +270,10 @@ figcaption {
     font-size: 2.5vw;
   }
 
+  .caption {
+  font-size: 1.75vw;
+}
+
   .logo-grid {
     grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
     grid-template-rows: auto;
@@ -323,6 +333,10 @@ figcaption {
   p {
     font-size: 5vw;
   }
+
+   .caption {
+  font-size: 3vw;
+}
 
   .logo-grid {
     grid-template-columns: repeat(auto-fill, 50% 50%);
