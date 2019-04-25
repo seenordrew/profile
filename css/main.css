@@ -229,10 +229,22 @@ figcaption {
   z-index: -1;
 }
 
-.profile {
-  border-radius: 250px;
-  width: 15%;
-  animation: shake 100s;
+.contact-form {
+  margin-top: 4vw;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 20vw;
+  font-size: calc(5px + 1.5vw);
+  background-color: #0288e2;
+}
+
+footer p {
+  color: white;
 }
 
 
@@ -298,6 +310,11 @@ figcaption {
     margin-top: 25px;
     width: 40%;
   }
+
+  footer {
+  height: 30vw;
+  font-size: 1.5vw;
+}
 }
 
 /*code for phones*/
@@ -359,7 +376,9 @@ figcaption {
       margin-top: 25px;
       width: 60%;
     }
+
+  footer {
+  height: 40vw;
+  font-size: 1.5vw;
   }
-
-
 
