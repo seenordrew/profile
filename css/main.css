@@ -131,6 +131,11 @@ figure {
   opacity: 0.7;
 }
 
+.demo {
+  padding: 3vw 5vw;
+}
+
+
 figcaption {
   font: caption;
   font-style: italic;
@@ -177,11 +182,11 @@ figcaption {
   -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
-
+/*
 .photo-grid img:hover {
   opacity: 0.7;
 }
-
+*/
 #no-hover img:hover {
   opacity: 1;
 }
